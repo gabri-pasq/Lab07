@@ -1,6 +1,13 @@
 import datetime
 from dataclasses import dataclass
 
+@dataclass
+class Riassunto:
+    localita: str
+    umidita: int
+
+    def __str__(self):
+        return f"{self.localita}: {self.umidita}"
 
 @dataclass
 class Situazione:

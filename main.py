@@ -1,3 +1,4 @@
+
 import flet as ft
 
 from model.model import Model
